@@ -19,7 +19,8 @@
 
 <section class="search-results">
 	<header>
-		<h1 class="h3">Results for "<%= @keywords %>"</h1>
+		<h1 class="h3">Results: <%= @keywords %>
+		</h1>
 	</header>
 	<%= render partial: "pager", locals: { keywords: @keywords, page: @page } %>
 	<ol class="list-group">
